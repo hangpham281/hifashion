@@ -1,0 +1,21 @@
+﻿a{
+    color: #000000;
+}
+/*top search*/
+div.form-group {
+    padding-top: 1pt;
+    padding-bottom: 1pt;
+    z-index: 9999999;
+    top: 4px; /* change to whatever you want */
+    left: 210pt; /* change to whatever you want */
+    right: auto; /* change to whatever you want */
+    bottom: auto; /* change to whatever you want */
+
+}
+#carousel-example-generic {
+    position: relative;
+}
+div.form-control {
+   padding: 1pt 10pt;
+
+}

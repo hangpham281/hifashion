@@ -1,0 +1,12 @@
+C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\bin\Debug\netcoreapp2.0\WebHiFashion.deps.json
+C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\bin\Debug\netcoreapp2.0\WebHiFashion.runtimeconfig.json
+C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\bin\Debug\netcoreapp2.0\WebHiFashion.runtimeconfig.dev.json
+C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\bin\Debug\netcoreapp2.0\WebHiFashion.dll
+C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\bin\Debug\netcoreapp2.0\WebHiFashion.pdb
+C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.csprojResolveAssemblyReference.cache
+C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.csproj.CoreCompileInputs.cache
+C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.AssemblyInfoInputs.cache
+C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.AssemblyInfo.cs
+C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.dll
+C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.pdb
