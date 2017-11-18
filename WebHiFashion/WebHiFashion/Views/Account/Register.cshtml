@@ -2,73 +2,48 @@
 @{
     ViewData["Title"] = "Register";
 }
-
-<h2>Sign Up</h2>
-
-<div class="row">
-    <div class="col-md-4">
-        <form asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post">           
-            <hr />
-            <div asp-validation-summary="All" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Email"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
+<center>
+    <h5><b>SIGN UP</b> </h5>
+        <div>
+            <div >
+                <form asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post">
+                    <hr style="background-color: #ed1563; width: 80%; height: 0.4pt;" />
+                    <h5><b>SIGN UP WITH...</b> </h5>
+                    <p style="color: #4a4949; margin-bottom: 0">Signing up with social media is much more quicker, while you do don't have to remember extra password. Don't worry, we'd never share any of your personal info or post anything on your behalf.</p>
+                    <div style="width: 40%; height: 17px; border-bottom: 1px solid #a1a1a1; text-align: center">
+                        <span style="font-size:1.25rem; background-color: #F7F7F7; padding: 0 10px;">
+                         <b>OR</b>   
+                        </span>
+                    </div>
+                    <h5 style="margin-top: 15px"><b>CREATE AN ACCOUNT</b></h5>
+                    <div class="form-group" >
+                        <label asp-for="FirstName" style="float:left"></label>
+                        <input asp-for="FirstName" class="form-control" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email" style="float:left"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password" style="float:left"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ConfirmPassword" style="float:left"></label>
+                        <input asp-for="ConfirmPassword" class="form-control" />
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div> 
+                    <p style="color: #4a4949;">By <b>Registering</b>, you agree that you've read and accepted our <a href="">User Agreement</a>, you're at least 18 years old, and you consent to our <a href="">Privacy Notice</a> and receiving marketing communications from us.</p>
+                    <button style="background-color: #ed1563; color: #ffffff" type="submit" class="btn btn-default"><b>REGISTER</b></button>
+                    <p style="margin-top: 10px">Already have an account ?
+                        <a asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" style="color: #6A80CE"> Sign In</a></p>
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="Password"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ConfirmPassword"></label>
-                <input asp-for="ConfirmPassword" class="form-control" />
-                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-            </div>
-            <a><h5>Additional information</h5></a>
-            <table style="border: hidden">
-                <tbody style="border: hidden">
-                    <tr style="border: hidden">
-                        <th><a> First Name</a></th>
-                        <th>
-                            <input asp-for="FirstName" class="form-control" />
-                            <span asp-validation-for="FirstName" class="text-danger"></span>
-                        </th>
-                    </tr>
-                    <tr style="border: hidden">
-                        <th> <a>Last Name</a></th>
-                   
-                        <th>
-                            <input asp-for="LastName" class="form-control" />
-                            <span asp-validation-for="LastName" class="text-danger"></span>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th><a>Gender</a></th>
-                        <th>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                                   Male
-                                </label>
-                            </div>
-                           </th><th>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
-                                   Female
-                                </label>
-                            </div>
-                        </th>
-                    </tr>
-                </tbody>
-            </table>
-           
-           
-            <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-    </div>
-</div>
+        </div>
+</center>
 
 @section Scripts {
     @await Html.PartialAsync("_ValidationScriptsPartial")

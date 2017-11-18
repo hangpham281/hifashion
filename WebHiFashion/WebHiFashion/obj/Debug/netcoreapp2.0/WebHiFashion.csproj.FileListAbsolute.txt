@@ -10,3 +10,15 @@ C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\We
 C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.AssemblyInfo.cs
 C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.dll
 C:\Users\hangp\source\repos\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.pdb
+E:\My Job\ASP.net\HI-Fashion\WebHiFashion\WebHiFashion\bin\Debug\netcoreapp2.0\WebHiFashion.deps.json
+E:\My Job\ASP.net\HI-Fashion\WebHiFashion\WebHiFashion\bin\Debug\netcoreapp2.0\WebHiFashion.runtimeconfig.json
+E:\My Job\ASP.net\HI-Fashion\WebHiFashion\WebHiFashion\bin\Debug\netcoreapp2.0\WebHiFashion.runtimeconfig.dev.json
+E:\My Job\ASP.net\HI-Fashion\WebHiFashion\WebHiFashion\bin\Debug\netcoreapp2.0\WebHiFashion.dll
+E:\My Job\ASP.net\HI-Fashion\WebHiFashion\WebHiFashion\bin\Debug\netcoreapp2.0\WebHiFashion.pdb
+E:\My Job\ASP.net\HI-Fashion\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.csprojResolveAssemblyReference.cache
+E:\My Job\ASP.net\HI-Fashion\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.csproj.CoreCompileInputs.cache
+E:\My Job\ASP.net\HI-Fashion\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\My Job\ASP.net\HI-Fashion\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.AssemblyInfoInputs.cache
+E:\My Job\ASP.net\HI-Fashion\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.AssemblyInfo.cs
+E:\My Job\ASP.net\HI-Fashion\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.dll
+E:\My Job\ASP.net\HI-Fashion\WebHiFashion\WebHiFashion\obj\Debug\netcoreapp2.0\WebHiFashion.pdb
